@@ -66,7 +66,7 @@ class Forca < Play
 
 end
 
-jogador = Forca.new("oculos")
+jogador = Forca.new("cartola")
 jogador.play
 
 
