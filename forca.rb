@@ -55,7 +55,7 @@ class Forca < Play
     @keyword.each_with_index do |each_leter, index|
        
       if leter_entry == each_leter
-       @correct_word[index] = each_leter
+        @correct_word[index] = each_leter
         success = true
       end
 
